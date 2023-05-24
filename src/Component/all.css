@@ -1,0 +1,560 @@
+.btn-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #3b3737;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+.icns {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+a {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+.btn-nav button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #f7e7e7;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.btn-nav button:hover{
+    border-bottom: 0.5mm solid white;
+}
+
+header {
+    display: flex;
+    gap: 150px;
+    padding: 80px;
+    background: linear-gradient(to bottom, #141313 5%, #2b2a2b 100%);
+}
+header section {
+    padding-top: 80px;
+    line-height: 0.9;
+    color: white;
+}
+header section h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+header section h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+header section  {
+    font-size: 18px;
+}
+header section span {
+    display: flex;
+    gap: 15px;
+}
+header section span button {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0.4mm solid black;
+    border-radius: 3mm;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.pro a {
+    font-size: 20px; 
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.pro {
+    background-color: #f7e7e7;
+}
+.con {
+    color: #f7e7e7;
+}
+.fir {
+    text-align: left;
+}
+.con:hover {
+    background-color: #f7e7e7;
+    color: #000;
+}
+.sec {
+    background: linear-gradient(to bottom, #3b3b3b 10%, #1c191c 100%);
+}
+.about-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+    color: white;
+}
+
+.about {
+    text-align: center;
+    width: 100%;
+}
+.about h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.code {
+    font-size: 50px;
+    color: #1d1a1a;
+}
+.mo {
+    justify-content: center;
+}
+.about h2 {
+    width: 70%;
+    text-align: left;
+}
+.great {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+.about p {
+    font-size: 18px;
+    text-align: left;
+    width: 70%;
+    margin-left: 15%;
+    font-weight: 200;
+}
+.hey {
+    display: flex;
+    text-align: left;
+    gap: 20px;
+}
+
+.skill,
+.skilled,
+.skills {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+ .skills {
+    line-height: 4.5mm;
+    border-top: 0.5mm solid #303030;
+} 
+.skills h1,
+.skill h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.tech h2 {
+    font-size: 30px;
+}
+.tech p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+.tech button {
+    border: 0.7mm solid rgb(79, 75, 75) ;
+    background-color: #6c6464;
+    border-radius: 2mm;
+    padding: 5px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 16px;
+    color: #2b2a2b;
+    font-weight: 600;
+}
+.tech button b {
+    color: #f7e7e7;
+    font-size: 18px;
+}
+
+.rep {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    border-top: 1mm dotted #303030;
+    padding: 30px;
+}
+.rep span {
+    border-bottom: 1mm solid #373535;
+    padding: 10px 5px;
+    text-align: left;
+}
+.rep span b {
+    color: rgb(72, 72, 220);
+    font-size: 18px;
+}
+.shop a {
+    font-size: 18px;
+}
+
+.talk  {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 30px 40px;
+    border: #333030 1mm solid;
+    text-align: left;
+    width: 90%;
+}
+.talk h2 {
+    font-size: 18px;
+    font-weight: 200;
+}
+.talk p {
+    font-size: 25px;
+    font-weight: 700;
+}
+.talk input {
+    padding: 15px;
+    height: 4vh;
+    width: 50%;
+    background-color: transparent;
+    border: 0.5mm #3b3737 solid;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+}
+.talk input::placeholder {
+    padding: 2px;
+    color: #fff;
+}
+
+.talk textarea {
+    width: 50%;
+    background-color: transparent;
+    border: 0.5mm #3b3737 solid;
+    outline: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 17px;
+}
+.talk textarea::placeholder {
+    padding: 2px;
+    color: #fff; 
+}
+
+.talk button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 0.7mm solid rgb(79, 75, 75) ;
+    background-color: #6c6464;
+    border-radius: 2mm;
+    color: #f7e7e7;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.talk button:hover {
+    background-color: #5c5454;
+}
+.want h2 {
+    font-size: 30px;
+}
+.want p {
+    font-size: 24px;
+    color: #f7e7e7;
+    font-weight: 200;
+}
+.want button {
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 0.7mm solid rgb(79, 75, 75) ;
+    background-color: #6c6464;
+    border-radius: 3mm;
+    font-weight: 700;
+    cursor: pointer;
+    color: #f7e7e7;
+    transition: 0.3s ease;
+}
+footer {
+    background: linear-gradient(to bottom, #212121 10%, #161416 100%);
+    color: #fff;
+    padding: 20px;
+}
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;  
+    padding: 20px;
+}
+.ami {
+    border-bottom: 1mm solid  #2b2a2b;
+}
+.foot img {
+    width: 25%;
+    height: 6vh;
+}
+footer h4 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.col a {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #f7e7e7;
+}
+footer b {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+footer p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #f7e7e7;
+    font-weight: 200;
+}
+footer h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.soc {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+@media (max-width: 1150px) {
+    footer p {
+        font-size: 17px;
+    }
+    .foot {
+        gap: 80px;  
+        padding: 20px 15px;
+    }
+    .about p {
+        width: 85%;
+    }
+}
+
+@media (max-width: 800px) { 
+    .about-div,
+    .skill,
+    .skills{
+        text-align: left;
+       padding: 30px 10px;
+    }
+
+    header {  
+        gap: 80px;
+        padding: 80px;
+    }
+    
+
+   
+    header section h2 {
+        font-size: 25px;
+    }
+    header section h1 {
+        font-size: 35px;
+    }
+
+
+
+    .shop a {
+        font-size: 16px;
+    }
+
+
+
+    .code {
+        display: flex;
+        justify-content: center;
+    }
+    .want h2 {
+        font-size: 28px;
+    }
+    .about {
+        text-align: left;
+    }
+    .about p {
+        width: 100%;
+        margin-left: 0%;
+        font-weight: 200;
+    }
+    .tech p {
+        display: flex;
+        justify-content: left;  
+    }
+    .rep {
+        justify-content: center;
+        padding: 20px;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    .foot {
+        gap: 80px;  
+        padding: 20px 2px;
+    }
+    footer b {
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        text-align: left;
+    }
+
+    header {  
+        gap: 10px;
+        padding: 10px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    header section h2 {
+        font-size: 20px;
+    }
+    header section h1 {
+        font-size: 26px;
+    }
+    .icns a {
+        font-size: 20px;
+    }
+    header section span button {
+        padding: 10px 15px;
+    }
+    .about p {
+        width: 100%;
+        margin-left: 0%;
+        font-weight: 200;
+    }
+    .btn-nav {
+        position: relative;
+    }
+    .btn-nav button {
+        display: none;
+    }
+    .pro a {
+        font-size: 18px; 
+        font-weight: 500;
+        color: black;
+        text-decoration: none;
+    }
+   
+  
+
+  
+    .skills h1,
+    .skill h1 {
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+    .skills h2,
+    .skill h2 {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .tech button {
+        padding: 5px 10px;
+        gap: 8px;
+        font-size: 15px;
+    }
+    .tech button b {
+        font-size: 16px;
+    }
+    .talk {
+        padding: 30px 20px;      
+        width: 80%;
+    }
+    
+    .talk p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .talk input {
+        padding: 10px;
+        height: 2vh;
+        font-size: 15px;
+        width: 67%;
+    }
+    .talk input::placeholder {
+        font-size: 15px;
+    }
+    .talk textarea {
+        width: 70%;
+        padding: 5px;
+        height: 10vh;
+        font-size: 15px;
+    }
+    .talk button {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+    .want h2 {
+        font-size: 25px;
+    }
+    .want p {
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .want button {
+        padding: 10px 25px;
+        font-size: 18px;
+    }
+    .ami h1 {
+        font-size: 26px;
+    }
+    .foot {
+        gap: 100px;  
+        padding: 20px;
+    }
+    footer p {
+        font-size: 16px;
+        font-weight: 100;
+    }
+}
+@media (max-width: 370px) { 
+    header section h2 {
+        font-size: 18px;
+    }
+    header section h1 {
+        font-size: 24px;
+    }
+    header section span button {
+        padding: 10px 16px;
+        font-size: 15px;
+    }
+    header {  
+        gap: 10px;
+        padding: 5px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .skills h1, .skill h1 {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+  
+    
+   .soc a {
+        padding: 5px;
+        font-size: 25px;
+    }
+}

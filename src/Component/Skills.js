@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCss3, FaGithub,  FaHtml5, FaJava, FaJs, FaLaptopCode, FaReact, FaSass} from 'react-icons/fa'
+import { FaCss3, FaGithub,  FaHtml5, FaJs, FaLaptopCode, FaReact, FaSass} from 'react-icons/fa'
 
 function Skills(props) {
   return (

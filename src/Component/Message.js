@@ -14,7 +14,7 @@ function Message() {
        <textarea name="" id="" cols="30" rows="10" placeholder='Your Message'></textarea>
 
        <div>
-        <button >Send</button>
+        <button>Send</button>
        </div>
         </section>
     </section>

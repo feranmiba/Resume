@@ -4,10 +4,9 @@ import Footer from './Component/Footer';
 
 function App() {
   return (
-    <div className="shit">
+    <div>
       <Navbar />
-      <Footer />
-      
+      <Footer /> 
     </div>
   );
 }

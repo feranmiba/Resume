@@ -1,64 +1,69 @@
 import React from 'react'
-import './all.css'
-import { FaGithub, FaTwitter, FaLinkedin, FaFacebook, FaTelegram, FaLocationArrow, FaPhone, FaMailBulk} from 'react-icons/fa'
+import Box from '@mui/material/Box'
+import Container from '@mui/material/Container'
+import Stack from '@mui/material/Stack'
+import Home from '@mui/icons-material/Home'
+import PhoneAndroid from '@mui/icons-material/PhoneAndroid'
+import Mail from '@mui/icons-material/Mail'
+import { FaGithub, FaTwitter, FaLinkedin, FaFacebook, FaTelegram} from 'react-icons/fa'
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
+import Copyright from '@mui/icons-material/Copyright'
+import Web from '@mui/icons-material/Web'
+import WebAsset from '@mui/icons-material/WebAsset'
+import Typography from '@mui/material/Typography'
 
 
 function Footer() {
   return (
-    <footer>
-      <div className='ami'>
-      <h1>Amiola Demilade</h1>
-          <p>Freelancer | Frontend Developer</p>
-          </div>
-      <section className='foot'>
-      <div className='soc'>
-        <a href="https://www.facebook.com/amiola.emmanuel.5"><FaFacebook /> </a> 
-        <a href="https://twitter.com/emmanuel_amiola"><FaTwitter />   </a>
-        <a href="https://github.com/feranmiba"> <FaGithub /></a> 
-        <a href="https://web.telegram.org/z/#-1422953789"> <FaTelegram /></a> 
-        <a href="https://github.com/feranmiba"> <FaLinkedin /></a> 
+    <footer class='bg-slate-200 mt-5 py-14'>
+    <Box>
+    <Container>
+    <Stack direction={'column'}>
+    <Typography variant='h5' fontFamily={'Cinzel Decorative'} fontWeight={700}>Amiola Demilade</Typography>
+    <Typography fontFamily={'Cinzel Decorative'}>Frontend Developer</Typography>
+    </Stack>
 
-        </div>
+    <div class='pt-8'>
+   
 
-        <div className='col'>
-            <h4>Link</h4>
-      
-            <a href="./">Home</a>
-             <a href="./">Projects</a>
-             <a href="./">About</a>
-             <a href="./">Message</a>
-           
-        </div>
-
-      
-
-        <div className='col'>
-            <h4>Services</h4>
-            <p>Web design</p>
-            <div class="row">
-             
-            </div>
-            <p>Web development</p>
-          
-        </div>
-
-        <div className='col'>
-            <h4>Contact</h4>
-            <p><b><FaLocationArrow /> Adress:</b> 46, community road isawo Lagos Nigeria</p>
-            <p><b><FaPhone /> Phone:</b> +234 70 1904 0834 </p>
-            <p><b><FaMailBulk /> E-mail:</b> amiolademilade@gmail.com</p>
-            <div class="follow">
-                <h5> Follow me</h5>
-            </div>
-            </div>
+    <Stack direction={'row'} spacing={2}>
+    <a href="https://www.facebook.com/amiola.emmanuel.5"><FaFacebook class='text-2xl  text-blue-600'/> </a> 
+            <a href="https://twitter.com/emmanuel_amiola"><FaTwitter class='text-2xl  text-blue-600'/>   </a>
+            <a href="https://github.com/feranmiba"> <FaGithub class='text-2xl  '/></a> 
+            <a href="https://web.telegram.org/z/#-1422953789"> <FaTelegram class='text-2xl  text-blue-600'/></a> 
+            <a href="https://github.com/feranmiba"> <FaLinkedin class='text-2xl  text-blue-600'/></a> 
+    </Stack>
 
 
+    <Stack class='flex flex-wrap justify-between pt-8 mt-5 gap-5'>
+    <Stack direction={'column'} spacing={2}>
+    <Typography variant='h5' fontFamily={'Cinzel Decorative'}>About</Typography>
+    <Stack direction={'row'}><Typography fontFamily={'Cinzel Decorative'}> <BusinessCenterIcon />About us </Typography></Stack> 
+    <Stack direction={'row'}><Typography fontFamily={'Cinzel Decorative'}> <WebAsset /> Disclamer</Typography></Stack> 
+    </Stack>
 
-        
-           
-        </section>
+    <Stack direction={'column'} spacing={2}>
+    <Typography variant='h5' fontFamily={'Cinzel Decorative'}> Services</Typography>
+    <Stack direction={'row'}><Typography fontFamily={'Cinzel Decorative'}> <Web /> Web design</Typography></Stack> 
+    <Stack direction={'row'}><Typography fontFamily={'Cinzel Decorative'}> <WebAsset /> Web development</Typography></Stack> 
+    </Stack>
+
+
+    <Stack direction={'column'} spacing={2}>
+    <Typography variant='h5' fontFamily={'Cinzel Decorative'}> Contact</Typography>
+   <Stack direction={'row'}> <Typography fontFamily={'Cinzel Decorative'}><Home /> Adress: 46, community road isawo Lagos Nigeria</Typography></Stack>
+   <Stack direction={'row'}><Typography fontFamily={'Cinzel Decorative'}><PhoneAndroid /> Phone: +234 70 1904 0834</Typography></Stack> 
+   <Stack direction={'row'}><Typography fontFamily={'Cinzel Decorative'}><Mail /> E-mail: amiolademilade@gmail.com</Typography></Stack> 
+    </Stack>
+
+
+    </Stack>
+    </div>
+    <Typography textAlign={'center'} marginTop={5} fontFamily={'Monotov'} textTransform={'uppercase'}><Copyright /> Amiola Demilade</Typography>
+        </Container>
+        </Box>
     </footer>
   )
 }
 
-export default Footer
+export default Footer;

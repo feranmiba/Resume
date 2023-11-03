@@ -5,14 +5,6 @@ function Time() {
     const [morningmessage, SetMorningMessage] = useState()
     const [date, setdate] = useState(new Date())
 
-
-  
-   
-
-    
-    // setTimeout(function() {
-    //     sec
-    // }, 1000)
    const dates = new Date();
    const day = `${dates.getDate()}`.padStart(2, 0)
    const month = dates.getMonth() + 1

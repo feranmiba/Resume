@@ -17,7 +17,6 @@ import Box from '@mui/material/Box'
 
 
 
-
 function Navbar() {
   const [visible, setVisible] = useState(false)
  
@@ -50,7 +49,7 @@ function Navbar() {
     
      <p class='flex md:hidden' onClick={toggleMenu}><Menu  /></p>
      
-  {visible && ( <motion.div initial={{  x: 200  }} whileInView={{ x: 88 }} class='ml-24 fixed top-0 md:hidden'> <div class='flex flex-col bg-slate-300 items-start justify-start right-[-300px] w-[500px] h-[100vh] pt-10 pl-8  gap-7 md:hidden'>
+  {visible && ( <motion.div initial={{  x: 200  }} whileInView={{ x: 88 }} class='ml-24 fixed top-0 md:hidden'> <div class='flex flex-col bg-[#6b8bcc] items-start justify-start right-[-300px] w-[500px] h-[100vh] pt-10 pl-8  gap-7 md:hidden'>
  <p onClick={toggleMenu} class=' duration-100' ><Close  /></p> 
     <button>Home</button>
     <button onClick={() => ScrolltoSection(about)}>About</button>
@@ -81,24 +80,3 @@ function Navbar() {
 }
 
 export default Navbar 
-
-
-//
-// import About from './About'
-// import { FaArrowDown } from 'react-icons/fa'
-// <div className='btn-nav'>
-// <div className='nav'>
-// <button>Home</button>
-// <button onClick={() => ScrolltoSection(about)}>About</button>
-// <button onClick={() => ScrolltoSection(skill)}>Skill</button>
-// <button onClick={() => ScrolltoSection(projects)}>Projects</button>
-// </div>
-// <Time />
-// <FaArrowDown />
-// </div>
-// 
-// <About 
-// about={about} 
-// skill={skill}
-// project={projects}
-// />

@@ -4,9 +4,9 @@ import Artica3rdImage from './Image/articarel.png'
 import Ecommerce1 from './Image/Screenshot 2023-10-31 125126.png'
 import Ecommerce2 from './Image/ecommerce2.png'
 import Ecommerce3 from './Image/ecommerce3.png'
-import Dictionary1 from './Image/Dictionary1.png'
-import Dictionary2 from './Image/Dictionary2.png'
-import Dictionary3 from './Image/Dictionary3.png'
+import Dictionary1 from './Image/Bottomfitness.png'
+import Dictionary2 from './Image/fitness .png'
+import Dictionary3 from './Image/mobilefit.png'
 import { FaCss3 } from 'react-icons/fa'
 import { FaReact } from 'react-icons/fa'
 
@@ -40,10 +40,10 @@ const Details = [
         image2: Dictionary3,
         image3: Dictionary1,
         skills: [{ icons: <FaCss3 /> , skill: 'CSS'}, { icons: <FaReact /> , skill: 'REACT'}],
-        name: 'Web Dictionary',
-        Link: 'https://amiolademiladewebdictionaryapp.netlify.app/',
-        LinkName: 'webdictionaryapp.netlify.app',
-        Repo: 'https://github.com/feranmiba/dictionary',
+        name: 'Get-Fit',
+        Link: 'https://get-fitted.netlify.app/',
+        LinkName: 'fittness.netlify.app',
+        Repo: 'https://github.com/feranmiba/fitness',
         RepoLinkName: 'github.com/feranmiba'
     }
 ]

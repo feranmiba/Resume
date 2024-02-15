@@ -1,10 +1,7 @@
 import React from 'react'
 import Skills from './Skills'
 import Projects from './Projects'
-import Message from './Message'
-import Want from './Want'
 import Typography from '@mui/material/Typography'
-import { FaCode } from 'react-icons/fa'
 import Container  from '@mui/material/Container'
 
 
@@ -26,7 +23,6 @@ function About(props) {
         <Projects 
         project={props.project}
         />
-        <Message />
         </Container>
     </section>
   )
